@@ -1,6 +1,6 @@
-FROM damarsan/alto-selenium:latest
+FROM dmartinez/google-chrome-headless:latest
 
-MAINTAINER Albert Yu <yukinying@gmail.com>
+MAINTAINER David Martinez <dmartinez@alto-analytics.com>
 
 ARG DEBIAN_FRONTEND=noninteractive
 
