@@ -1,4 +1,4 @@
-FROM yukinying/chrome-headless-browser:latest
+FROM damarsan/alto-selenium:latest
 
 MAINTAINER Albert Yu <yukinying@gmail.com>
 
