@@ -41,9 +41,9 @@ RUN wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.stor
 # Selenium Configuration
 #========================
 # As integer, maps to "maxInstances"
-ENV NODE_MAX_INSTANCES 1
+ENV NODE_MAX_INSTANCES 5
 # As integer, maps to "maxSession"
-ENV NODE_MAX_SESSION 1
+ENV NODE_MAX_SESSION 20
 # In milliseconds, maps to "registerCycle"
 ENV NODE_REGISTER_CYCLE 5000
 # In milliseconds, maps to "nodePolling"
